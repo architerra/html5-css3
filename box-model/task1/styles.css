@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    height: 128px;
+    width: 512;
+    padding: 16px;
+    margin: 16px;
+    border: 8px solid black;
+}
+
+.rectangleFist {
+    background-color: aquamarine;
+}
+
+.rectangleSecond {
+    background-color: azure;
+    box-sizing: border-box;
+}
