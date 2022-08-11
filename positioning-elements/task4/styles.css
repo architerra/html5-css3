@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 50px;
+}
+
+main, aside {
+    height: 500px;
+}
+
+header {
+    background-color: yellow;
+}
+
+footer {
+    background-color: green;
+    clear: both;
+}
+
+main {
+    background-color: pink;
+    width: 80%;
+    float: left;
+}
+
+aside {
+    background-color: gray;
+    width: 20%;
+    float: left;
+}
