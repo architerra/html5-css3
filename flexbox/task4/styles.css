@@ -1,7 +1,13 @@
 div {
-    width: 20%;
+    
     height: 300px;
-    float: left;
+    width: 20vh;
+    flex-grow: 1;
+    
+}
+
+body {
+    display: flex;
 }
 
 .block_red {
