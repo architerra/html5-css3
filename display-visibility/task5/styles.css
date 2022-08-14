@@ -6,8 +6,6 @@
 
 .thumb {
   margin: 8px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   cursor: all-scroll;
-  
 }
-
