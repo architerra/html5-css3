@@ -1,11 +1,11 @@
 .gallery {
   display: flex;
-  /* width: 100%; */
+  overflow-x: auto;
   flex-wrap: nowrap;
 }
 
 .thumb {
   margin: 8px;
-  /* overflow-x: scroll; */
+  
   cursor: all-scroll;
 }
