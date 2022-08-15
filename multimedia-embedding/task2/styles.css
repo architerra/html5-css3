@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+video {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 200px auto 0;
+}
