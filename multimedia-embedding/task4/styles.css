@@ -1,22 +1,18 @@
 * {
   box-sizing: border-box;
-  
+  margin: 0;
+  padding: 0;
 }
 
 div {
   display: flex;
- 
   position: relative;
   width: fit-content;
-  
   margin: auto;
 }
 
 .image {
-  
   max-width: 100%;
-  /* margin: auto; */
-  /* position: relative; */
 }
 
 .image-button {
