@@ -6,8 +6,7 @@
 div {
   display: flex;
   position: relative;
-  width: fit-content;
-  margin: auto;
+  justify-content: center;
 }
 
 .image {
