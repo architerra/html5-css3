@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+ 
 }
 
 div {
@@ -13,6 +12,7 @@ div {
 
 .image {
   max-width: 100%;
+  height: auto;
 }
 
 .image-button {
