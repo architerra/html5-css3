@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 div {
   display: flex;
@@ -11,9 +11,9 @@ div {
 }
 
 .image {
-  /* display: block; */
-  max-width: 100%;
-  margin: auto;
+  
+  max-width: 500px;
+  /* margin: auto; */
   /* position: relative; */
 }
 
