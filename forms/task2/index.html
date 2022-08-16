@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Images</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form>
+      <div class="form-controll">
+        <label><input type="text" name="lastName" value="Emerson" readonly />Last Name</label>
+      </div>
+      <div class="form-controll">
+        <label><input type="number" min="3" max="10" name="age" value="17" required />Age</label>
+      </div>
+      <div class="form-controll">
+        <input type="checkbox" id="agree-accept" name="agree" disabled />
+        <label for="agree-accept">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" id="gender-male" name="gender" checked />
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" />
+        <label for="gender-female">Female</label>
+        <input type="radio" id="gender-secret" name="gender" />
+        <label for="gender-secret">Secret</label>
+      </div>
+      <div class="form-controll">
+        <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
+      </div>
+      <div class="form-controll">
+        <button name="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
