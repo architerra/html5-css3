@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 table {
     width: 500px;
@@ -15,4 +15,7 @@ table, td, th {
 td, th {
     padding: 4px;
     text-align: right;
+}
+div {
+    overflow-x: auto;
 }
