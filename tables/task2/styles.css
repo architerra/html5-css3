@@ -15,12 +15,12 @@ th {
 }
 
 tr {
-  line-height: 40px;
+  line-height: 39px;
 }
 
-td {
+/* td {
     line-height: 39px;
-}
+} */
 
 td,
 th {
