@@ -18,6 +18,10 @@ tr {
   line-height: 40px;
 }
 
+td {
+    line-height: 38px;
+}
+
 td,
 th {
   padding: 0px 4px;
