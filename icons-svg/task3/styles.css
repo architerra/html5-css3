@@ -3,22 +3,23 @@ div {
     justify-content: space-around;
 }
 
-.fa-battery-full {
+#f {
     font-size: 16px;
 }
 
-.fa-battery-three-quarters {
+#t {
     font-size: 32px;
 }
 
-.fa-battery-half {
+#h {
     font-size: 64px;
 }
 
-.fa-battery-quarter {
+#q {
     font-size: 128px;
 }
 
-.fa-battery-empty {
+
+#empty {
     font-size: 256px;
 }
