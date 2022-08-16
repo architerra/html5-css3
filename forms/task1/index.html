@@ -15,18 +15,22 @@
   <body>
     <form>
       <div class="form-controll">
-        <input type="text" name="lastName" value="Emerson">
+        <input type="text" name="lastName" value="Emerson" />
       </div>
       <div class="form-controll">
-        <input type="number" name="age" value="17">
+        <input type="number" name="age" value="17" />
       </div>
       <div class="form-controll">
-        <input type="checkbox" name="agree"><label>Accept terms and conditions</label>
+        <input type="checkbox" id="agree-accept" name="agree" />
+        <label for="agree-accept">Accept terms and conditions</label>
       </div>
       <div class="form-controll">
-        <input type="radio" name="gender">Male
-        <input type="radio" name="gender">Female
-        <input type="radio" name="gender">Secret
+        <input type="radio" id="gender-male" name="gender" />
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" />
+        <label for="gender-female">Female</label>
+        <input type="radio" id="gender-secret" name="gender" />
+        <label for="gender-secret">Secret</label>
       </div>
       <div class="form-controll">
         <textarea name="decription" placeholder="Write description"></textarea>
@@ -36,5 +40,4 @@
       </div>
     </form>
   </body>
-
 </html>
