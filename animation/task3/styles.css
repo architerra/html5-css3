@@ -25,6 +25,7 @@
   border-radius: 2px;
   animation: blinking 2s, moving 2s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 
 .spinner-text {
