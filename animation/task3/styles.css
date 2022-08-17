@@ -29,6 +29,7 @@
 }
 
 .spinner-text {
+    
   animation: blinking 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -40,7 +41,7 @@
     opacity: 1;
   }
   50% {
-    left: 70px;
+    left: 80px;
   }
   100% {
     left: 0;
