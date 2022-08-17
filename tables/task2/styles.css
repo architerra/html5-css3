@@ -14,18 +14,15 @@ th {
   border-collapse: collapse;
 }
 
-tr {
-  line-height: 39px;
-}
-
 /* td {
     line-height: 39px;
 } */
 
 td,
 th {
-  padding: 0px 4px;
+  padding: 4px;
   text-align: right;
+  height: 40px;
 }
 
 div {
