@@ -10,14 +10,12 @@
   height: 200px;
   background-color: #ff7f50;
   display: flex;
-  flex-grow: 1;
 }
 
 .prod {
   height: 200px;
   background-color: #006400;
   display: flex;
-  flex-grow: 1;
 }
 
 .news {
@@ -39,12 +37,24 @@ span {
 @media screen and (min-width: 600px) {
   .container {
     display: flex;
-    flex-grow: 2;
+  }
+  .nav {
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 900px) {
-    body {
-      display: flex;
-    }
+  body {
+    display: flex;
   }
+  
+  .container {
+    width: calc(100% / 3 * 2);
+  }
+  /* .news {
+    width: calc(1 / 3);
+  } */
+}
