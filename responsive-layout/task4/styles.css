@@ -22,6 +22,10 @@ h1 {
   padding: 0.67em;
 }
 
+p {
+  margin: 0;
+}
+
 .footer {
   background-color: #e5e5e5;
   text-align: center;
@@ -49,19 +53,19 @@ h1 {
 }
 
 .section__header {
-    font-size: 5vw;
-    text-align: center;
+  font-size: 5vw;
+  text-align: center;
 }
 
 .units-list > li {
-    line-height: 1.75em;
+  line-height: 1.75em;
 }
 
 .css-units {
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-weight: 700;
-    font-size: 1.125em;
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.125em;
 }
 
 .news {
