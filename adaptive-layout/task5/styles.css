@@ -34,7 +34,7 @@ section p {
   background-color: #e5e5e5;
   text-align: center;
   padding: 0.5em;
- 
+ padding-bottom: 0;
 }
 
 .main {
@@ -135,7 +135,9 @@ img {
   .navigation {
     width: 20%;
   }
- 
+ .footer {
+  padding-bottom: .5em;
+ }
   
 }
 
