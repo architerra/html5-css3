@@ -26,6 +26,10 @@ p {
   margin: 0;
 }
 
+section p {
+  margin-top: 1em;
+}
+
 .footer {
   background-color: #e5e5e5;
   text-align: center;
