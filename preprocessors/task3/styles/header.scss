@@ -14,15 +14,16 @@
   color: #fff;
 
   &__item {
-    // height: 3em;
-    // padding-top: 1em;
+    height: 3em;
+    padding-top: 1em;
     padding-left: 8px;
     padding-right: 8px;
-    line-height: 3em;
+    // line-height: 3em;
 
     &_active {
       color: yellow;
       width: 104px;
+      
 
       &:hover .submenu {
         display: block;
