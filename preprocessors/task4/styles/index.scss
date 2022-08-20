@@ -1,9 +1,7 @@
+@import "layout.scss";
+
 * {
   box-sizing: border-box;
-}
-
-.container {
-  /* display: flex; */
 }
 
 .nav {
@@ -32,26 +30,4 @@ span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: auto;
-}
-
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-  }
-  .nav {
-    width: 50%;
-  }
-  .prod {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  body {
-    display: flex;
-  }
-
-  .container {
-    width: calc(100% / 3 * 2);
-  }
 }

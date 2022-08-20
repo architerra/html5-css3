@@ -1,9 +1,24 @@
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+  .nav {
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;
+  }
+  .container {
+    width: 66.6666666667%;
+  }
+}
 * {
   box-sizing: border-box;
-}
-
-.container {
-  /* display: flex; */
 }
 
 .nav {
@@ -34,24 +49,4 @@ span {
   margin: auto;
 }
 
-@media screen and (min-width: 600px) {
-  .container {
-    display: flex;
-  }
-  .nav {
-    width: 50%;
-  }
-  .prod {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  body {
-    display: flex;
-  }
-
-  .container {
-    width: calc(100% / 3 * 2);
-  }
-}
+/*# sourceMappingURL=styles.css.map */
