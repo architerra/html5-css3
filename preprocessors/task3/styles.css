@@ -12,10 +12,9 @@
   color: #fff;
 }
 .menu__item {
-  height: 3em;
-  padding-top: 1em;
   padding-left: 8px;
   padding-right: 8px;
+  line-height: 3em;
 }
 .menu__item_active {
   color: yellow;
