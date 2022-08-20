@@ -19,7 +19,7 @@
 }
 .menu__item_active {
   color: yellow;
-  width: 104px;
+  width: 105px;
 }
 .menu__item_active:hover .submenu {
   display: block;
