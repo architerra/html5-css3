@@ -18,7 +18,7 @@
 }
 .menu__item_active {
   color: yellow;
-  width: 106px;
+  width: 104px;
 }
 .menu__item_active:hover .submenu {
   display: block;
